@@ -9,7 +9,9 @@ body {
     background: #fdfdfd;
     color: #223366;
 }
-
+.navbar {
+    padding: 10px 0;
+}
 nav {
     background: #aacccc;
 }
@@ -34,10 +36,7 @@ a {
 }
 
 .balance {
-    background: #f0f0f0;
-    border: 1px solid #eee;
-    border-radius: 10px;
-    height: 100px;
+    height: 125px;
     text-align: center;
     padding-top: 25px;
     font-size: 16px;
@@ -58,10 +57,21 @@ h1 {
     font-family: "futura-pt",Century Gothic,Futura,sans-serif;
     display: inline;
     color: #223366;
+
+}
+h1 img {
+    vertical-align: top;
+    padding-top: 5px;
 }
 
 .profile {
     margin-bottom: 15px;
+}
+
+.money {
+    text-align: center;
+    font-size: 35px;
+    color: #14882C;
 }
 
 .util {
@@ -91,7 +101,7 @@ h1 {
     border-radius: 10px;
     background: #f0f0f0;
     height: 400px;
-    margin: 0 2% 2% 0;
+    margin: 0 2% 5% 0;
 
 }
 
