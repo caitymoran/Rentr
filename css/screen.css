@@ -1,37 +1,67 @@
 /** {
     border: 1px solid blue;
+    potential colors: #9FD6D6, #a9ccc4;
 }*/
 
 body {
     font-family: "futura-pt",Century Gothic,Futura,sans-serif;
     /*letter-spacing: .1em;*/
+    background: #fdfdfd;
+    color: #223366;
 }
 
 nav {
-    background: #ccc;
-    /*    height: 100px;
-*/}
+    background: #aacccc;
+}
 
 .nav {
    float: right;
 }
 
+.nav-pills {
+    color: #223366
+/*    background: #223366;
+*/}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+        color: #f0f0f0;
+        background-color: #223366;
+}
+
+a {
+    color: #223366;
+    text-decoration: none;
+}
+
 .balance {
-    background: #ddd;
-    border: 1px solid #ccc;
+    background: #f0f0f0;
+    border: 1px solid #eee;
     border-radius: 10px;
     height: 100px;
     text-align: center;
     padding-top: 25px;
     font-size: 16px;
 }
-h1,h2,h3 {
+
+h2 {
+    font-family: "futura-pt",Century Gothic,Futura,sans-serif;
+    text-align: left;
+    margin-top: 0;
+}
+
+h3 {
     font-family: "futura-pt",Century Gothic,Futura,sans-serif;
     text-align: center;
 }
 
+h1 {
+    font-family: "futura-pt",Century Gothic,Futura,sans-serif;
+    display: inline;
+    color: #223366;
+}
+
 .profile {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .util {
@@ -46,9 +76,10 @@ h1,h2,h3 {
 }
 
 .history {
-    border: 1px solid #ccc;
+    border: 1px solid #eee;
     border-radius: 10px;
-    background: #ddd;
+    background: #f0f0f0;
+    color: #112B3D;
 }
 
 .history p {
@@ -56,12 +87,12 @@ h1,h2,h3 {
 }
 
 .month {
-    border: 1px solid #ccc;
+    border: 1px solid #eee;
     border-radius: 10px;
-    background: #ddd;
+    background: #f0f0f0;
     height: 400px;
-/*    width: 48%;*/
-    margin-right: 2%;
+    margin: 0 2% 2% 0;
+
 }
 
 .amt {
